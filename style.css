@@ -123,5 +123,13 @@ section {
 
 .footer-logo{
     display: flex;
+    margin-bottom: 5vh;
+    gap: 2vh;
+    align-items: center;
+}
+
+.logo-text{
+    font-weight: bold;
+    color:#FF385C;
 }
 
