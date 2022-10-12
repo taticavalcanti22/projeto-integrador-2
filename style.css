@@ -89,12 +89,15 @@ section {
     display: flex;
     flex-direction:column;
     flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
 }
 
 .image {
     height: 35vh;
     width: 35vh;
-    border-radius: 30px;
+    border-radius: 1vh;
+    box-shadow: 1vh 1vh 1vh 1vh gainsboro;
 }
 
 .form-container {
