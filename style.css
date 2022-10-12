@@ -132,4 +132,17 @@ section {
     font-weight: bold;
     color:#FF385C;
 }
+.icons-container {
+    border-radius: 0.8vh;
+    background-color:#FF385C;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40vh;
+    margin-right: 20vh;
+}
+.icones{
+    margin-left: 3vh;
+}
 
