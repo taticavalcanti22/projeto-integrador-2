@@ -84,8 +84,8 @@ aside {
 }
 
 .text {
-    width: 50vh;
-    padding-top: 5vh;
+    width: 90vh;
+    padding-top: 3vh;
     font-size: 1.5vh;
 }
 
@@ -156,6 +156,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-left: 40vh;
     margin-right: 20vh;
 }
