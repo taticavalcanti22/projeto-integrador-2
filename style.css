@@ -74,6 +74,7 @@ header {
 aside {
     flex-grow: 1;
     margin-left: 10vh;
+    margin-top: 5vh;
 }
 
 .text-container {
