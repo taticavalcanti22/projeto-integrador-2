@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casas Airbnb</title>
-
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     <link rel="stylesheet" href="style.css">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <header>
-        <img class="logo hover-responsive" src="./imagens/logo.png" alt="logo">
+        <img class="logo" src="./imagens/logo.png" alt="logo">
         <nav class="nav">
             <ul class="menu">
                 <li><a class="icones-menu" href="#home">Home</a></li>
@@ -46,7 +45,7 @@
         
         <aside>
             <article class="container-imagem" data-aos="fade-down">
-                <img class="image image-about"src="./imagens/foto7.jpg" alt="">
+                <img class="image image-about"src="./imagens/foto7.jpg" alt=""><br>
                 <p class="text-image">Casas aconchegantes</p>
             </article>
         </aside>
@@ -58,6 +57,23 @@
             </div>
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum exercitationem, debitis animi quod voluptatem, veniam quasi totam fuga sit eius.</p>
         </aside>
+    </section>
+
+    <section class="container spacing" id="products">
+        <aside class="text-container" data-aos="fade-up">
+            <div>   
+                <h1 class="sub-title">Casas Selecionadas</h1>
+            </div>
+                
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illo minima dolor iste dolorem, esse eum! Impedit necessitatibus eum ratione cum labore, facere modi voluptates, delectus excepturi, magni vero fugiat.</p>
+        </aside>
+        <aside>
+            <article class="container-imagem" data-aos="fade-left">
+                <img class="image" src="./imagens/foto6.jpg" alt="imagem"><br> 
+                <p class="text-image-two">Amplo Espaço</p>
+            </article>
+        </aside>
+
     </section>
 
     <section class="container spacing" id="contact">
@@ -93,7 +109,16 @@
             </div>
         </div>
     </footer>
-      
+    <script>
+        $(document).on('ready', function () {
+          // initialization of aos
+          AOS.init({
+            duration: 650,
+            once: true
+          });
+        });
+    </script>
+     
 </body>
-
+<script src="../../assets/vendor/aos/dist/aos.js"></script>
 </html>
