@@ -6,31 +6,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casas Airbnb</title>
-
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     <link rel="stylesheet" href="style-flex.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="container-main">
-        <div class="item"><aside class="text-container" data-aos="fade-up">
+
+    <header>
+        <img class="logo" src="./imagens/logo.png" alt="logo">
+        <nav class="nav">
+            <ul class="menu">
+                <li><a class="icones-menu" href="#home">Home</a></li>
+                <li><a class="icones-menu" href="#about">Sobre nós</a></li>
+                <li><a class="icones-menu" href="#products">Produtos</a></li>
+                <li><a class="icones-menu" href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container spacing" id="home">
+        <aside class="text-container" data-aos="fade-up">
             <div>
                 <h1 class="title">A Melhor Hospedagem</h1>
                 <h1 class="sub-title">do Brasil</h1>
             </div>
-                
-            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illo minima dolor iste dolorem, esse eum! Impedit necessitatibus eum ratione cum labore, facere modi voluptates, delectus excepturi, magni vero fugiat.</p>
-        </aside></div>
-        <div class="item"><aside>
-            <article class="container-imagem" data-aos="fade-left">
-                <img class="image" src="./imagens/foto8.jpg" alt="imagem">  
-            </article>
-        </aside></div>
-        <div class="item">fsdgfgsferjeritjeritojqeritqejiotqjiotjqiojqiorjqweiorjioejeqrojqerioqejwrioqwejroqwprjqwoprjqweoprqweirjqweig</div>
-        <div class="item">hf989h3914813489t13489</div>
 
-    </div>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illo minima dolor iste
+                dolorem, esse eum! Impedit necessitatibus eum ratione cum labore, facere modi voluptates, delectus
+                excepturi, magni vero fugiat.</p>
+        </aside>
+        <aside>
+            <article class="container-imagem" data-aos="fade-left">
+                <img class="image" src="./imagens/foto8.jpg" alt="imagem">
+            </article>
+        </aside>
+
+    </section>
+
+    <section class="container spacing" id="about">
+
+        <aside>
+            <article class="container-imagem" data-aos="fade-down">
+                <img class="image image-about" src="./imagens/foto7.jpg" alt=""><br>
+                <p class="text-image">Casas aconchegantes</p>
+            </article>
+        </aside>
+
+        <aside class="text-container" data-aos="fade-left">
+            <div>
+                <h2 class="sub-title">10 anos no mercado</h2>
+                <h3 class="title">Conforto e qualidade!</h3>
+            </div>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum exercitationem,
+                debitis animi quod voluptatem, veniam quasi totam fuga sit eius.</p>
+        </aside>
+    </section>
+
+    <section class="container spacing" id="products">
+        <aside class="text-container" data-aos="fade-up">
+            <div>
+                <h1 class="sub-title">Casas Selecionadas</h1>
+            </div>
+
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum illo minima dolor iste
+                dolorem, esse eum! Impedit necessitatibus eum ratione cum labore, facere modi voluptates, delectus
+                excepturi, magni vero fugiat.</p>
+        </aside>
+        <aside>
+            <article class="container-imagem" data-aos="fade-left">
+                <img class="image" src="./imagens/foto6.jpg" alt="imagem"><br>
+                <p class="text-image-two">Amplo Espaço</p>
+            </article>
+        </aside>
+
+    </section>
+
+    <section class="container spacing" id="contact">
+        <aside class="title-contact" data-aos="fade-down">
+            <h2 class="sub-title">Fale Conosco!</h2>
+            <p class="text-contact">Sua opnião é muito importante para nós! <br> Faça sua pergunta, queremos o seu
+                Feedback!</p>
+        </aside>
+
+        <aside>
+            <form action="" class="form-container" id="form" data-aos="fade-up">
+                <input class="input form-field" type="text" placeholder="Nome" required />
+                <input class="input form-field" type="email" placeholder="E-mail" required />
+                <textarea class="input form-field" required>Escreva sua mensagem!</textarea>
+                <input class="input form-field button" value="Enviar" type="submit">
+            </form>
+        </aside>
+    </section>
+
+    <footer class="container spacing">
+        <div class="container-item footer-logo">
+            <img class="logo" src="./imagens/logo.png" alt="logo">
+            <span class="logo-text">Casas Airbnb</span>
+        </div>
+        <div class="icons-container menu">
+            <p>Siga-nos nas redes sociais</p>
+            <div class="menu icones-menu">
+                <a href=""><i class="icones fa fa-whatsapp"></i></a>
+                <a href=""><i class="icones fa fa-facebook"></i></a>
+                <a href=""><i class="icones fa fa-twitter"></i></a>
+                <a href=""><i class="icones fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).on('ready', function () {
+            
+            AOS.init({
+                duration: 650,
+                once: true
+            });
+        });
+    </script>
 
 </body>
+<script src="../../assets/vendor/aos/dist/aos.js"></script>
 
 </html>
