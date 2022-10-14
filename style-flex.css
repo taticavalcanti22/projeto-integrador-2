@@ -148,8 +148,10 @@ aside {
     width: 35vh;
     border-radius: 1vh;
     box-shadow: -1vh 1vh 1vh 1vh gainsboro, 1vh -1vh 1vh 1vh gainsboro;
+    flood-opacity: 1;
+    
+}   
 
-}
 
 .form-container {
     display: flex;
@@ -193,15 +195,24 @@ aside {
 .icons-container {
     border-radius: 0.8vh;
     background-color: #FF385C;
-    height: 10vh;
+    height: 6vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     margin-left: 40vh;
     margin-right: 20vh;
+    padding-top: 1vh;
+    text-align-last: auto;
+    flex-shrink: 5vh;
+
 }
 
 .icones {
     margin-left: 3vh;
+    flex-shrink: 3vh;
+    grid-template-rows: auto;
 }
+
