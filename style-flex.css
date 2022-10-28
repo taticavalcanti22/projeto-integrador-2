@@ -24,8 +24,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow-x: scroll;
+    overflow-wrap:normal;
     align-items: center;
+  
 }
 
 .logo {
@@ -61,11 +62,10 @@ header {
 
 .menu {
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    margin-top: 1vh;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-end;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -73,7 +73,7 @@ header {
     color: white;
     font-weight: bold;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -83,9 +83,13 @@ header {
 }
 
 .spacing {
-    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
     margin-bottom: 10vh;
-    gap: 40vh;
+    align-items: center;
+    height: 90vh;
+   
 }
 
 .container {
@@ -104,11 +108,10 @@ aside {
 
 .text-container {
     display: flex;
-    flex-direction: column;
-    overflow-wrap: break-word;
-    justify-content: left;
-    text-align: left;
-    align-items: left;
+    flex-direction: column;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .text {
@@ -146,10 +149,10 @@ aside {
 .image {
     height: 35vh;
     width: 35vh;
-    border-radius: 1vh;
-    box-shadow: -1vh 1vh 1vh 1vh gainsboro, 1vh -1vh 1vh 1vh gainsboro;
-    flood-opacity: 1;
-    
+    border-radius: 2vh;
+    box-shadow: 11px 12px 41px 33px rgba(163,152,152,0.43);
+    -webkit-box-shadow: 11px 12px 41px 33px rgba(163,152,152,0.43);
+    -moz-box-shadow: 11px 12px 41px 33px rgba(163,152,152,0.43);
 }   
 
 
@@ -195,24 +198,19 @@ aside {
 .icons-container {
     border-radius: 0.8vh;
     background-color: #FF385C;
-    height: 6vh;
+    height: 12vh;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-basis: auto;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items:center;
     margin-left: 40vh;
-    margin-right: 20vh;
-    padding-top: 1vh;
-    text-align-last: auto;
-    flex-shrink: 5vh;
+    margin-right: 10vh;
+    padding: 1vh;
+    flex-shrink: 3vh;
+   
 
 }
-
-.icones {
-    margin-left: 3vh;
-    flex-shrink: 3vh;
-    grid-template-rows: auto;
+.itextarea {
+    height: 10vh;
 }
 
